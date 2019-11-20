@@ -1,0 +1,27 @@
+{
+    "name": "qklin/common-library",
+    "description": "通用库",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qklin",
+            "email": "qklandy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.5.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qklin\\Common\\Library\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
